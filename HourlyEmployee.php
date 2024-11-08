@@ -2,7 +2,7 @@
 
 class HourlyEmployee extends Employee {
     private $hoursWorked;
-    private $hourlyRate
+    private $hourlyRate;
 
     public function __construct($hoursWorked, $hourlyRate, $name, $address, $age, $companyName) {
         parent::__construct($name, $address, $age, $companyName);
